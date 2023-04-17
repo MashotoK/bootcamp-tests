@@ -1,5 +1,5 @@
 function isFromBellville(regNumber){
-    return regNumber.endsWith("BV");
+    return regNumber.endsWith("CY");
 }
 
 module.exports = isFromBellville;

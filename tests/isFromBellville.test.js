@@ -1,9 +1,9 @@
 var assert = require('chai').assert;
-const isFromBellville = require('./isFromBellville');
+const isFromBellville = require('../isFromBellville');
 
 describe('isFromBellville', function() {
   it('should return true for a registration number from Bellville', function() {
-    var result = isFromBellville('CY 123 BV');
+    var result = isFromBellville('CY 123 CY');
     assert.isTrue(result);
   });
 

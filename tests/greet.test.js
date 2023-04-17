@@ -1,5 +1,5 @@
 var assert = require('chai').assert;
-var greet = require('./greet'); // import the greet function
+var greet = require('../greet'); // import the greet function
 
 describe('greet', function() {
   it('should return a greeting with the given name', function() {
